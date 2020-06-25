@@ -46,21 +46,23 @@ class _StoryPageState extends State<StoryPage> {
                   storyBrain.getStory(),
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontFamily: 'Indie Flower',
-                    fontSize: 22.0,
+                    fontFamily: 'Marck Script',
+                    fontSize: 26.0,
                   ),
                 ),
               ),
             ),
             Expanded(
               flex: 2,
-              child: FlatButton(
-                color: Colors.red,
+              child: RawMaterialButton(
+                padding: EdgeInsets.all(8.0),
+                fillColor: Colors.red,
                 child: Text(
                   storyBrain.getChoice1(),
+                  textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontFamily: 'Indie Flower',
-                    fontSize: 18.0,
+                    fontFamily: 'Marck Script',
+                    fontSize: 20.0,
                   ),
                 ),
                 onPressed: () {
@@ -77,14 +79,15 @@ class _StoryPageState extends State<StoryPage> {
               flex: 2,
               child: Visibility(
                 visible: storyBrain.buttonShouldBeVisible(),
-                child: FlatButton(
-                  color: Colors.blue,
+                child: RawMaterialButton(
+                  padding: EdgeInsets.all(8.0),
+                  fillColor: Colors.blue,
                   child: Text(
                     storyBrain.getChoice2(),
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontFamily: 'Indie Flower',
-                      fontSize: 18.0,
+                      fontFamily: 'Marck Script',
+                      fontSize: 20.0,
                     ),
                   ),
                   onPressed: () {
