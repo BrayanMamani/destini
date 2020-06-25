@@ -24,6 +24,6 @@ flutter:
     - 'images/background.jpg'
 
   fonts:
-    - family: 'Indie Flower'
+    - family: 'Marck Script'
       fonts:
-        - asset: 'fonts/IndieFlower-Regular.ttf'
+        - asset: 'fonts/MarckScript-Regular.ttf'
