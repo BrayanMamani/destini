@@ -6,7 +6,7 @@ Flutter is Google's UI toolkit for building beautiful, natively compiled applica
 
 ## About Destini
 
-This repository presents a game application of choosing your own adventure like Bandersnatch. The Dart OOP principles are applied in the process to build a well-organized project.
+This repository presents a game app to choose your own adventure. The Dart OOP principles are applied in the process to build a well-organized project.
 
 <img src="destini.gif" width="300">
 
